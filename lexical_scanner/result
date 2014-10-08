@@ -1,0 +1,77 @@
+Line 1, Column 1 :  < comment, # function >
+Line 2, Column 1 :  < func, func >
+Line 2, Column 6 :  < id, f >
+Line 2, Column 7 :  < reserve, ( >
+Line 2, Column 8 :  < id, x >
+Line 2, Column 9 :  < reserve, ) >
+Line 2, Column 11 :  < reserve, => >
+Line 3, Column 3 :  < id, x >
+Line 3, Column 5 :  < reserve, := >
+Line 3, Column 8 :  < digit, -5 >
+Line 4, Column 3 :  < return, return >
+Line 4, Column 10 :  < id, x >
+Line 5, Column 1 :  < end, end >
+Line 7, Column 1 :  < comment, # if statement >
+Line 8, Column 1 :  < if, if >
+Line 8, Column 4 :  < id, b >
+Line 8, Column 6 :  < reserve, ~= >
+Line 8, Column 9 :  < digit, 3.2 >
+Line 9, Column 3 :  < id, c >
+Line 9, Column 5 :  < reserve, := >
+Line 9, Column 8 :  < id, c >
+Line 9, Column 10 :  < reserve, + >
+Line 9, Column 12 :  < digit, 1 >
+Line 10, Column 1 :  < elif, elif >
+Line 10, Column 6 :  < id, b >
+Line 10, Column 8 :  < reserve, || >
+Line 10, Column 11 :  < digit, 5 >
+Line 11, Column 3 :  < id, d >
+Line 11, Column 5 :  < reserve, := >
+Line 11, Column 8 :  < id, b >
+Line 12, Column 1 :  < end, end >
+Line 14, Column 1 :  < comment, # loop statement >
+Line 15, Column 1 :  < loop, loop >
+Line 15, Column 6 :  < id, i >
+Line 15, Column 8 :  < reserve, := >
+Line 15, Column 11 :  < digit, 5 >
+Line 15, Column 12 :  < reserve, , >
+Line 15, Column 14 :  < id, i >
+Line 15, Column 16 :  < reserve, < >
+Line 15, Column 18 :  < digit, 10 >
+Line 15, Column 20 :  < reserve, , >
+Line 15, Column 22 :  < id, i >
+Line 15, Column 24 :  < reserve, := >
+Line 15, Column 27 :  < id, i >
+Line 15, Column 29 :  < reserve, + >
+Line 15, Column 31 :  < digit, 2 >
+Line 15, Column 33 :  < reserve, -> >
+Line 15, Column 36 :  < do, do >
+Line 16, Column 3 :  < noop, noop >
+Line 17, Column 1 :  < end, end >
+Line 19, Column 1 :  < comment, # digit >
+Line 20, Column 1 :  < digit, 12.25 >
+Line 21, Column 1 :  < digit, -0.23 >
+Line 22, Column 1 :  < comment, # string >
+Line 23, Column 1 :  < string, "" >
+Line 24, Column 1 :  < string, "hello" >
+Line 25, Column 1 :  < comment, # bool >
+Line 26, Column 1 :  < reserve, true >
+Line 27, Column 1 :  < reserve, false >
+Line 28, Column 1 :  < comment, # null >
+Line 29, Column 1 :  < reserve, nil >
+Line 30, Column 1 :  < comment, # expr >
+Line 31, Column 1 :  < reserve, ( >
+Line 31, Column 3 :  < reserve, ( >
+Line 31, Column 5 :  < id, a >
+Line 31, Column 7 :  < reserve, + >
+Line 31, Column 9 :  < digit, 5 >
+Line 31, Column 11 :  < reserve, * >
+Line 31, Column 13 :  < id, b >
+Line 31, Column 15 :  < reserve, ) >
+Line 31, Column 17 :  < reserve, ) >
+Line 32, Column 1 :  < comment, # object >
+Line 33, Column 1 :  < id, obj >
+Line 33, Column 4 :  < reserve, . >
+Line 33, Column 5 :  < id, a >
+Line 34, Column 1 :  < comment, # unexpected token >
+Line 35, Column 1 : Unexpected Token
